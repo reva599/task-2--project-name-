@@ -1,0 +1,40 @@
+﻿# Task 2 CRUD Application - .gitignore
+
+# Database files
+*.sqlite
+*.db
+
+# PHP temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error.log
+access.log
+
+# Test files (optional - remove if you want to include them)
+test_*.php
+create_user.php
+
+# Environment files
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+
+# Cache files
+cache/
+tmp/
